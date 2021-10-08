@@ -1,3 +1,148 @@
-.header {
-background-color: aqua;
+body{
+    background-image: url(./imagenes/pattern.png);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.letras{
+  font-size: 1rem;
+  text-align: center;
+}
+h2{
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 5rem;
+  margin-right: 7rem;
+  color:rgb(151, 115, 151);
+}
+.imgagen1,
+.imagen2 {
+  width: auto;
+}
+.contenedor {
+  background-color: rgb(151, 115, 151);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 70px;
+ }
+.logo-imagen{
+    margin:auto;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.navegador {
+  display: flex;
+  text-align: center;
+}
+
+.navegadores{
+    margin: 5px;
+    color: rgb(250, 250, 249);
+    list-style: none;
+    font-weight:bold;
+    font-size: 25px;
+}
+.navegadores1{
+  background-color: rgb(199, 80, 24);
+  justify-content: center;
+  margin-top: 3px;
+  padding : 20px;
+}
+.navegadoresa{
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 2;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+.navegador-ul{
+    
+    list-style: none;
+    font-weight:bold;
+
+}
+.primer{
+  display: grid;
+  justify-content: center;
+}
+.imagen1{
+  width: 250;
+  height: 300px;
+  margin-top: 20px;
+}
+.imagen2{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+.imagen3{
+  display: block;
+  border-radius: 1rem;
+  margin: 0%;
+
+}
+.picture{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.picture1{
+ display: block;
+ margin: 0%;
+
+}
+.texto-imagen{
+  padding-left: 20px;
+}
+
+.parrafos {
+    text-align: left;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+h3{
+font-size: 30px;
+
+}
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: white;
+  border-radius: 3rem;
+}
+.subtitulos {
+   text-align: left;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.negrillas{
+  align-items: flex-start;
+  font-weight:bold;
+}
+.caja{
+  padding: 1rem  4rem;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  
+}
+.pequenas {
+  margin: 8px;
+  padding: 0;
 }
